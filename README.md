@@ -4,8 +4,8 @@
 
 ### `Ubuntu 22.04`
 
-- instantclient 19 : :+1:
-- instantclient 21 : :+1:
-- instantclient 23 : :-1:
+- instantclient 19 : ✅
+- instantclient 21 : ✅
+- instantclient 23 : ❌ 
 
 
