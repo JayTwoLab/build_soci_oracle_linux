@@ -9,21 +9,20 @@
 #
 # TODO: change to your working directory
 
-echo 'rm -rf soci-master'
-rm -rf soci-master
 
 ####################################
 # [2] prepare to build
 
 # extarct zip of soci master
 #
-unzip master.zip
-cd soci-master
+# rm -rf soci-master
+# unzip master.zip
+# cd soci-master
 
 # or, clone from github
 #
-# git clone https://github.com/SOCI/soci.git
-# cd soci
+git clone https://github.com/SOCI/soci.git
+cd soci
 
 # create building directory
 mkdir build
