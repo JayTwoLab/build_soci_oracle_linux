@@ -7,7 +7,7 @@
 
 ### Ubuntu 22.04
 
-#### Buliding result
+#### Buliding result of Oracle instantclient
 
 - instantclient 19 : ✅
 - instantclient 21 : ✅
