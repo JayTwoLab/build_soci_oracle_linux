@@ -71,7 +71,13 @@ make
 ls lib/ # display result
 
 #####################################
-# [5] make install
+# [5] installation
 #
 
+echo 'Input superuser password for installation'
 sudo make install
+
+# Default installation directories
+# include : /usr/include/soci/
+# lib : /usr/local/lib64/
+
