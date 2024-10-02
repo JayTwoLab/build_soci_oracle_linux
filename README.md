@@ -8,4 +8,5 @@
 - instantclient 21 : ✅
 - instantclient 23 : ❌ 
 
+- See build.sh for more information.
 
