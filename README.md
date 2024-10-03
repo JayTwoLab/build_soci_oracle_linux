@@ -15,8 +15,8 @@
 
 #### `build.sh`
 
-- See build.sh for more information.
+- See [build.sh](build.sh) for more information. 
 
 ## License
-- C
+- LGPL v2.1
 
