@@ -17,4 +17,6 @@
 
 - See build.sh for more information.
 
+## License
+- C
 
