@@ -13,7 +13,7 @@
 ####################################
 # [2] prepare to build
 
-# extarct zip of soci master
+# extarct zip of soci 
 #
 # rm -rf soci-master
 # unzip master.zip
