@@ -36,19 +36,19 @@ pwd # display current direcotry
 # TODO: set your instant client directory
 
 # instant client 19
-export  CMAKE_ORACLE_INCLUDE_DIR=/home/oracle/19/instantclient_19_24/sdk/include
+export CMAKE_ORACLE_INCLUDE_DIR=/home/oracle/19/instantclient_19_24/sdk/include
 export CMAKE_ORACLE_OCCI_LIBRARY=/home/oracle/19/instantclient_19_24
 
 # instant client 21
-#export  CMAKE_ORACLE_INCLUDE_DIR=/home/oracle/21/instantclient_21_14/sdk/include
+#export CMAKE_ORACLE_INCLUDE_DIR=/home/oracle/21/instantclient_21_14/sdk/include
 #export CMAKE_ORACLE_OCCI_LIBRARY=/home/oracle/21/instantclient_21_14
 
 # WARN!! ic23 does not work!!
 # instant client 23
-#export  CMAKE_ORACLE_INCLUDE_DIR=/home/oracle/23/instantclient_23_4/sdk/include
+#export CMAKE_ORACLE_INCLUDE_DIR=/home/oracle/23/instantclient_23_4/sdk/include
 #export CMAKE_ORACLE_OCCI_LIBRARY=/home/oracle/23/instantclient_23_4
 
-export            PATH=$CMAKE_ORACLE_OCCI_LIBRARY:$PATH
+export PATH=$CMAKE_ORACLE_OCCI_LIBRARY:$PATH
 export LD_LIBRARY_PATH=$CMAKE_ORACLE_OCCI_LIBRARY:$LD_LIBRARY_PATH
 
 # build only oracle (except other db)
@@ -62,6 +62,7 @@ cmake .. \
  -DWITH_ORACLE=ON \
  -DORACLE_INCLUDE_DIR=$CMAKE_ORACLE_INCLUDE_DIR \
  -DORACLE_OCCI_LIBRARY=$CMAKE_ORACLE_OCCI_LIBRARY
+ # -DCMAKE_INSTALL_PREFIX=/your/custom/path 
 
 #####################################
 # [4] make
@@ -78,6 +79,10 @@ echo 'Input superuser password for installation'
 sudo make install
 
 # Default installation directories
-# include : /usr/include/soci/
-# lib : /usr/local/lib64/
+#  include dir : /usr/include/soci/
+#  lib dir : /usr/local/lib64/
+#
+# To define your own installation driectory, set following command.
+#  cmake -DCMAKE_INSTALL_PREFIX=/your/custom/path 
 
+ 
