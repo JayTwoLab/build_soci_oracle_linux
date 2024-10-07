@@ -2,7 +2,7 @@
 
 ## What is this?
 
-- bash script to easily build soci using oracle
+- bash script to easily build soci using oracle, in Linux
   - See [build.sh](build.sh) for more information. 
 
 ## What is soci?
