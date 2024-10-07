@@ -39,8 +39,8 @@ cmake -DCMAKE_INSTALL_PREFIX=/your/custom/path
 ```
 
    - Default directory
-        - Include : `/usr/include/soci`
-        - Lib : `/usr/local/lib64`
+        - Include(*.h) directory : `/usr/include/soci`
+        - Lib(*.so,*.a) directory : `/usr/local/lib64`
 
 
 ## License
