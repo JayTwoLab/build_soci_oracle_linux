@@ -46,5 +46,6 @@ cmake -DCMAKE_INSTALL_PREFIX=/your/custom/path
 ## License
 
 - [LGPL v2.1](LICENSE)
+- https://github.com/JayTwoLab/build_soci_oracle_linux
 
 
