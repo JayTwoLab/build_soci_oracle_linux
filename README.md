@@ -18,7 +18,7 @@
       - instantclient 21 : ✅
       - instantclient 23 : ❌ 
 
-## To Do
+## Things you need to set up to use the script
 
 1. Set instant client directory in `build.sh`
 
