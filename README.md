@@ -1,4 +1,4 @@
-# Build soci oracle using script
+# Build `soci` `linux` `oracle` using `script`
 
 ## What is this?
 
