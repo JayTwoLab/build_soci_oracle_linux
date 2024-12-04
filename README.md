@@ -40,5 +40,5 @@ SOCI is a C++ database access library that supports various database backends.
 
 **License**
 
-- GPL v2.1
+- GPL v3
 - https://github.com/JayTwoLab/build_soci_oracle_linux
