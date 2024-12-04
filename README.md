@@ -21,22 +21,20 @@
 ## Things you need to set up to use the script
 
 1. Set instant client directory in `build.sh`
-
-```
-# TODO: Set your instant client directory
-
-# instant client 19 (example directory)
-export CMAKE_ORACLE_INCLUDE_DIR=/home/oracle/19/instantclient_19_24/sdk/include
-export CMAKE_ORACLE_OCCI_LIBRARY=/home/oracle/19/instantclient_19_24
-```
+   ```bash
+   # TODO: Set your instant client directory
+   
+   # instant client 19 (example directory)
+   export CMAKE_ORACLE_INCLUDE_DIR=/home/oracle/19/instantclient_19_24/sdk/include
+   export CMAKE_ORACLE_OCCI_LIBRARY=/home/oracle/19/instantclient_19_24
+   ```
 
 2. Define installation direcotry. If you do not set a value, it will be installed by default.
 
    - How to define
-
-```
-cmake -DCMAKE_INSTALL_PREFIX=/your/custom/path 
-```
+      ```bash
+      cmake -DCMAKE_INSTALL_PREFIX=/your/custom/path 
+      ```
 
    - Default directory
         - Include(\*.h) directory : `/usr/include/soci`
