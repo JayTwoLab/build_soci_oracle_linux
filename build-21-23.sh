@@ -1,12 +1,13 @@
 #
 # Built soci using Oracle instance client 23.
 # Oracle Instant Client: https://www.oracle.com/database/technologies/instant-client/downloads.html
-# soci: https://github.com/SOCI/soci
+#
+# git clone https://github.com/SOCI/soci
 # soci should use the latest version (4.x)
 
+# move to ..../soci/build/
 rm -rf build
-
-mkdir build
+mkdir build 
 cd build
 
 # Instant client path setting
