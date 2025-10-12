@@ -10,7 +10,7 @@ rm -rf build
 mkdir build 
 cd build
 
-# Instant client path setting
+# Instant client path setting (Download and extract 'Basic Package (ZIP)', 'SQL*Plus Package (ZIP)', 'SDK Package (ZIP)')
 export ORACLE_INSTANT_CLIENT=/home/j2/workspace/oracle/instantclient_23_9
 
 # LD_LIBRARY_PATH settings must be added to environmental settings such as .bashrc in the future for Oracle use
