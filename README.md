@@ -14,7 +14,7 @@ SOCI is a C++ database access library that supports various database backends.
   - Oracle Instant Client build results:
     - Instant Client 19: Success
     - Instant Client 21: Success
-    - Instant Client 23: Failure
+    - Instant Client 23: ~Failure~ Success
 
 **Setup Instructions**
 
