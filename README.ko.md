@@ -14,7 +14,7 @@ SOCI는 C++ 데이터베이스 액세스 라이브러리로, 다양한 데이터
   - Oracle Instant Client 빌드 결과:
     - Instant Client 19: 성공
     - Instant Client 21: 성공
-    - Instant Client 23: 실패
+    - Instant Client 23: ~실패~ 성공 
 
 **스크립트 사용을 위한 설정**
 
